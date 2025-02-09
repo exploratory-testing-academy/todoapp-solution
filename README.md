@@ -246,6 +246,7 @@ FAILING CLAIMS
 
 
 FAILING CLAIMS
+
 ✓ New Todo should show placeholder text
 
 ✓ Mark all as completed should allow to clear the completion state of all items
