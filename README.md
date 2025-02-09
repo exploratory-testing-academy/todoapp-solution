@@ -87,6 +87,7 @@ Score a point againts each criteria. Expect a candidates claiming extensive expl
 * Structure and naming
 * Describing choices
 * Readme for getting tests to run
+* Choices of clean browser between tests
 
 ### MISTAKES THAT NEED EXPLAINING
 
