@@ -1,7 +1,6 @@
 from playwright.sync_api import expect
 from playwright.sync_api import Page
 import pytest
-from data.data_generator import Data
 
 @pytest.mark.parametrize("input_text", ["milk"], ids=["one"])
 def test_new_todo(br_page: Page, input_text):
