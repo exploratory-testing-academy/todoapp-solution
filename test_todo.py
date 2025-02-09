@@ -178,3 +178,15 @@ def test_new_todo_with_emojis(br_page: Page):
     br_page.fill('.new-todo', '👍👍👍👍👍')
     br_page.locator('.new-todo').press('Enter')
     expect(br_page.locator('ul.todo-list')).to_have_text('👍👍👍👍👍')
+
+
+"""
+✓ New todo should not allow creating empty todo items
+"""
+
+def test_new_todo_empty_text(br_page: Page):
+    br_page.fill('.new-todo', ' ')
+    br_page.locator('.new-todo').press('Enter')
+    expect(br_page.locator('ul.todo-list')).not_to_be_visible()
+    expect(br_page.locator(".main")).not_to_be_visible()
+    expect(br_page.locator(".footer")).not_to_be_visible()

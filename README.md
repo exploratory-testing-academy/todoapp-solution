@@ -118,7 +118,7 @@ New Todo
 
     ✓✓ should allow adding todo items of varying length and content
 
-    ✓ should not allow creating empty todo items
+    ✓✓ should not allow creating empty todo items
 
 Mark all as completed
 
@@ -205,10 +205,13 @@ Filter / Routing
 * [ CORRECTNESS OF FUNCTION ] Select all does not work. Clicking on the icon does nothing. 
 * [ CORRECTNESS OF FUNCTION ] Edit mode cannot be escaped with esc
 * [ CORRECTNESS OF FUNCTION ] Unsaved new item not removed on refresh
+* [ CORRECTNESS OF FUNCTION ] Adding space adds empty item
 * [ CORRECTNESS OF FUNCTION ] Edit to empty leaves the item while it should be removed
 * [ LAYOUT ] Edit to empty messes the layout and I should not see it since empty should not be added
 
 FAILING CLAIMS
+
+✓ New todo should not allow creating empty todo items
 
 ✓ Mark all as completed should allow to mark all items as completed
 
