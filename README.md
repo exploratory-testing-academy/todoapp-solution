@@ -293,3 +293,7 @@ Install dependencies
 
 Configure pytest as runner locally to run from tests add on or command line
 `pytest`
+
+Scope: 
+
+* Single test for adding to do item, parametrized
