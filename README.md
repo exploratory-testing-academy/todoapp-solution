@@ -271,7 +271,7 @@ FAILING CLAIMS
 * [ USABILITY ] Filters / router functionality can be confusing, as the user does not clearly understand the three filters on bottom. User may have a filter of completed on when adding a new one, and the item vanishing can be confusing.
 * [ USABILITY ] Stacked shadow effect in the bottom makes it seem like there are multiple layers. That does not connect well with the filters / routing functionality.
 * [ USABILITY ] Delete, edit and select all options take some discovering. 
-
+* [ DATA ] `ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็` at least in safari does not copy a single character but an encoded mess
 
 ### For React https://todomvc.com/examples/react/dist/
 
