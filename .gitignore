@@ -1,4 +1,5 @@
 .venv/
-.vscode/settings.json
+.vscode/
 pytest.log
 test-results/
+.pytest_cache/
