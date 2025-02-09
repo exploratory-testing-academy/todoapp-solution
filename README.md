@@ -100,23 +100,23 @@ Score a point againts each criteria. Expect a candidates claiming extensive expl
 
 No Todos
 
-    ✓ should hide #main and #footer
+    ✓✓ should hide #main and #footer
 
 New Todo
 
-    ✓ should autofocus to enter todo items on page load
+    ✓✓ should autofocus to enter todo items on page load
 
-    ✓ should allow to add todo items
+    ✓✓ should allow to add todo items
 
-    ✓ should clear text input field when an item is added 
+    ✓✓ should clear text input field when an item is added 
 
-    ✓ should trim text input
+    ✓✓ should trim text input
 
-    ✓ should show #main and #footer when items added 
+    ✓✓ should show #main and #footer when items added 
 
-    ✓ should show placeholder text
+    ✓✓ should show placeholder text
 
-    ✓ should allow adding todo items of varying length and content
+    ✓✓ should allow adding todo items of varying length and content
 
     ✓ should not allow creating empty todo items
 
@@ -148,7 +148,7 @@ Editing
 
     ✓ should save edits on blur 
 
-    ✓ should trim entered text 
+    ✓✓ should trim entered text 
 
     ✓ should remove the item if an empty text string was entered 
 
@@ -156,9 +156,9 @@ Editing
 
 Delete
 
-    ✓ should show delete on hover over
+    ✓✓ should show delete on hover over
 
-    ✓ should delete selected line
+    ✓✓ should delete selected line
 
 Counter
 
@@ -178,7 +178,7 @@ Clear completed
 
 Persistence
 
-    ✓ should persist its data in local storage
+    ✓✓ should persist its data in local storage
 
 Filter / Routing
 
@@ -251,8 +251,6 @@ FAILING CLAIMS
 ✓ New Todo should show placeholder text
 
 ✓ Mark all as completed should allow to clear the completion state of all items
-
-✓ Editing should trim entered text 
 
 ✓ Counter should display the current number of todo items
 
