@@ -89,62 +89,112 @@ Score a point againts each criteria. Expect a candidates claiming extensive expl
 * Readme for getting tests to run
 
 ### MISTAKES THAT NEED EXPLAINING
-Overfocus on locators while application is unknown and automation is not in play
-Wanting to input SQL injection string
+
+* Overfocus on locators while application is unknown and automation is not in play
+* Wanting to input SQL injection string
 
 ## Listing of features
 
 40 claims collected to 10 features. Any other way of separating features and claims is as good as this. Listing is a combination of what the To Do App -project lists as developer intent through their tests, what they list as their specs in their documentation and exploring and naming features and claims observed that need testing. 
 
 No Todos
+
     ✓ should hide #main and #footer
+
 New Todo
+
     ✓ should autofocus to enter todo items on page load
+
     ✓ should allow to add todo items
+
     ✓ should clear text input field when an item is added 
+
     ✓ should trim text input
+
     ✓ should show #main and #footer when items added 
+
     ✓ should show placeholder text
+
     ✓ should allow adding todo items of varying length and content
+
     ✓ should not allow creating empty todo items
+
 Mark all as completed
+
     ✓ should allow to mark all items as completed
+
     ✓ should default to marking completed if any items are incomplete
+
     ✓ should allow to clear the completion state of all items
+
     ✓ complete all checkbox should update state when items are completed 
+
 Item
+
     ✓ should allow to mark items as complete 
+
     ✓ should allow to un-mark items as complete 
+
     ✓ should allow to edit an item 
+
     ✓ should show the remove button on hover
+
 Editing
+
     ✓ should hide other controls when editing 
+
     ✓ should save edits on enter 
+
     ✓ should save edits on blur 
+
     ✓ should trim entered text 
+
     ✓ should remove the item if an empty text string was entered 
+
     ✓ should cancel edits on escape 
+
 Delete
+
     ✓ should show delete on hover over
+
     ✓ should delete selected line
+
 Counter
+
     ✓ should display the current number of todo items
+
     ✓ should have singular (one) and plural (zero, many) forms of item(s) without exclamation mark
-    ✓ should have number of items wrapped in <strong> tag
+
+    ✓ should have number of items wrapped in strong-tag
+
 Clear completed
+
     ✓ should display the number of completed items
+
     ✓ should remove completed items when clicked
+
     ✓ should be hidden when there are no items that are completed
+
 Persistence
+
     ✓ should persist its data in local storage
+
 Filter / Routing
+
     ✓ should allow to display active items
+
     ✓ should allow to display completed items
+
     ✓ should allow to display all items 
+
     ✓ should highlight the currently applied filter
+
     ✓ should be visible in URL
+
     ✓ should allow for route #!/
+
     ✓ should be applied on item state changes without refresh
+
     ✓ should be persisted on reload
 
 ## Listing of issues
@@ -160,11 +210,17 @@ Filter / Routing
 FAILING CLAIMS
 
 ✓ Mark all as completed should allow to mark all items as completed
+
 ✓ Mark all as completed should default to marking completed if any items are incomplete
+
 ✓ Mark all as completed should allow to clear the completion state of all items
+
 ✓ Mark all as completed complete all checkbox should update state when items are completed 
+
 ✓ Editing should remove the item if an empty text string was entered 
+
 ✓ Editing should cancel edits on escape 
+
 ✓ Filter / Routing should allow for route #!/
 
 ### Angular: https://todolist.james.am/#/
@@ -191,11 +247,17 @@ FAILING CLAIMS
 
 FAILING CLAIMS
 ✓ New Todo should show placeholder text
+
 ✓ Mark all as completed should allow to clear the completion state of all items
+
 ✓ Editing should trim entered text 
+
 ✓ Counter should display the current number of todo items
+
 ✓ Clear completed should display the number of completed items
+
 ✓ Clear completed should be hidden when there are no items that are completed
+
 ✓ Filter / Routing should allow for route #!/
 
 ### For Both Elm: https://todomvc.com/examples/elm/ and Angular: https://todolist.james.am/#/
