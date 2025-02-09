@@ -12,7 +12,7 @@ def url(pytestconfig):
     yield url
 
 
-@pytest.fixture(scope="session")
+@pytest.fixture(scope="function")
 def br(browser: Browser, my_context_arguments, pytestconfig, request: pytest.FixtureRequest) -> BrowserContext:
     new_context = browser.new_context(**my_context_arguments)
     new_context.tracing.start(snapshots=True, screenshots=True)
