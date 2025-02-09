@@ -277,7 +277,7 @@ FAILING CLAIMS
 
 (not tested consistently)
 
-* [ DATA ] Special characters ', #, & get encoded to the app UI as &#x27;&quot;&amp;
+* [ DATA ] Special characters ', #, & get encoded to the app UI as `&#x27;&quot;&amp;`
 
 ## Test automation
 
