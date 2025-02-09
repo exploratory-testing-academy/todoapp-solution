@@ -297,3 +297,4 @@ Configure pytest as runner locally to run from tests add on or command line
 Scope: 
 
 * Single test for adding to do item, parametrized
+* Single test with add and delete, parametrized to two
