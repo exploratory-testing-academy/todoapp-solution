@@ -71,8 +71,7 @@ Score a point againts each criteria. Expect a candidates claiming extensive expl
 * Functional problem, browser dimension (e.g persistence, icon corruption)
 * Usability problems (e.g. light colors, lack of instructions)
 * Implementation problems (on console) e.g. messages in code and errors in console
-* Data-related problems: creating empty items
-* Data-related problems: trim whitespace
+* Data-related problems: creating empty items / items with whitespace
 * Data-related problems: special characters
 * Missing features (e.g. order items)
 * Typos
