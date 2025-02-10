@@ -250,7 +250,6 @@ FAILING CLAIMS
 * [ IMPLEMENTATION ] Errors on missing resources on console are probably added for fun too
 * [ UNIMPLEMENTED ] "Clear" is missing the counter after it the spec asks for
 * [ UNIMPLEMENTED ] No route #!/, a technology-specific routing to main page without reload 
-* [ NOTE ] App has instructions to find delete when the other app version does not, even if in font color hard to read
 * [ NOTE ] URL does not follow the technology pattern you would expect for the demo app of angular.
 
 
@@ -278,6 +277,7 @@ FAILING CLAIMS
 * [ NEW FEATURE REQUEST ] Application does not scale nicely to smaller screen size, make it responsive
 * [ NEW FEATURE REQUEST ] No undo
 * [ NEW FEATURE REQUEST ] No confirm on clear and delete
+* [ NEW FEATURE REQUEST ] Long text edit popup that shows whole text
 * [ USABILITY ] Items are added at end of list not top of the list, and latest additions could be on top
 * [ USABILITY ] Concepts of "active" and "completed" may not be common terms and better term options could be investigated
 * [ USABILITY ] Application does not allow adding a to do item with a mouse. The text needs to be written on keyboard anyway, but a user may be used to expecting a button. 
@@ -285,9 +285,10 @@ FAILING CLAIMS
 * [ USABILITY ] Stacked shadow effect in the bottom makes it seem like there are multiple layers. That does not connect well with the filters / routing functionality.
 * [ USABILITY ] Delete, edit and select all options take some discovering. 
 * [ USABILITY ] Deletion is only available on select and hover, and deleting multiple items at a time is not possible
-* [ ACCESSIBILITY ] Delete unavailable with keyboard only
+* [ ACCESSIBILITY ] Delete unavailable with keyboard only, keyboard use not supported
 * [ DATA ] `ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็` does not copy a single character but an encoded mess
 * [ LAYOUT ] Long text and delete button would look better if they were separated into own columns
+* [ DATA ] Some text selection get delete icon on top of text
 
 ### For React https://todomvc.com/examples/react/dist/
 
