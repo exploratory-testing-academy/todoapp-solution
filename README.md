@@ -211,6 +211,7 @@ Filter / Routing
 * [ CORRECTNESS OF FUNCTION ] Edit to empty leaves the item while it should be removed
 * [ LAYOUT ] Edit to empty messes the layout and I should not see it since empty should not be added
 * [ IMPLEMENTATION ] Warning about compiled in DEV mode
+* [ CORRECTNESS OF FUNCTION ] Browser back / forward with routes/filters does not update the contents of the page
 
 FAILING CLAIMS
 
