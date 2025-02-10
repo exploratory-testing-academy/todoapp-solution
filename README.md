@@ -241,6 +241,7 @@ FAILING CLAIMS
 * [ CORRECTNESS OF FUNCTION ] Clear completed / Clear -button should only be visible / active when it can be used.  
 * [ CORRECTNESS OF FUNCTION ] Placeholder text vanishes after inserting an item and it should always be visible when items can be added; returns on refresh.
 * [ CORRECTNESS OF FUNCTION ] Select all and delete buttons get corrupted given enough time on application and using refresh; ~ for delete, sideways Å for delete.
+* [ CONSISTENCY ] Adding multiple items on list adds spaces in the item entry 
 * [ TERMINOLOGY ] Since "Clear" only clears completed items, it should be called "Clear completed"
 * [ DATA ] Adding whitespace while editing does not trim the whitespace but trims on displaying the text on UI. 
 * [ IMPLEMENTATION ]`<!-- STUPID APP -->` in comments is probably intentionally added for fun
