@@ -282,7 +282,8 @@ FAILING CLAIMS
 * [ USABILITY ] Stacked shadow effect in the bottom makes it seem like there are multiple layers. That does not connect well with the filters / routing functionality.
 * [ USABILITY ] Delete, edit and select all options take some discovering. 
 * [ USABILITY ] Deletion is only available on select and hover, and deleting multiple items at a time is not possible
-* [ DATA ] `ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็` at least in safari does not copy a single character but an encoded mess
+* [ ACCESSIBILITY ] Delete unavailable with keyboard only
+* [ DATA ] `ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็` does not copy a single character but an encoded mess
 
 ### For React https://todomvc.com/examples/react/dist/
 
