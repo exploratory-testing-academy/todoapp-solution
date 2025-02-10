@@ -240,7 +240,7 @@ FAILING CLAIMS
 * [ CORRECTNESS OF FUNCTION ] Select all and delete buttons get corrupted given enough time on application and using refresh; ~ for delete, sideways Å for delete.
 * [ TERMINOLOGY ] Since "Clear" only clears completed items, it should be called "Clear completed"
 * [ DATA ] Adding whitespace while editing does not trim the whitespace but trims on displaying the text on UI. 
-* [ IMPLEMENTATION ]<!-- STUPID APP --> in comments is probably intentionally added for fun
+* [ IMPLEMENTATION ]`<!-- STUPID APP -->` in comments is probably intentionally added for fun
 * [ IMPLEMENTATION ] "ToDo: Remove this eventually" tooltip is probably added for fun as well
 * [ IMPLEMENTATION ] Errors on missing resources on console are probably added for fun too
 * [ UNIMPLEMENTED ] "Clear" is missing the counter after it the spec asks for
