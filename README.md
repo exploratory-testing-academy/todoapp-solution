@@ -270,6 +270,7 @@ FAILING CLAIMS
 * [ ACCESSIBILITY ] Light color scheme hard to read as contrast to background is low
 * [ NEW FEATURE REQUEST ] Reordering items to show prioritization of to do does not exist
 * [ NEW FEATURE REQUEST ] Word wrapping is not supported, words are cut in middle of the space allocated into two lines
+* [ USABILITY ] Items are added at end of list not top of the list, and latest additions could be on top
 * [ USABILITY ] Concepts of "active" and "completed" may not be common terms and better term options could be investigated
 * [ USABILITY ] Application does not allow adding a to do item with a mouse. The text needs to be written on keyboard anyway, but a user may be used to expecting a button. 
 * [ USABILITY ] Filters / router functionality can be confusing, as the user does not clearly understand the three filters on bottom. User may have a filter of completed on when adding a new one, and the item vanishing can be confusing.
