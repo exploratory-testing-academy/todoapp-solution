@@ -209,6 +209,7 @@ Filter / Routing
 * [ CORRECTNESS OF FUNCTION ] Adding space adds empty item
 * [ CORRECTNESS OF FUNCTION ] Edit to empty leaves the item while it should be removed
 * [ LAYOUT ] Edit to empty messes the layout and I should not see it since empty should not be added
+* [ IMPLEMENTATION ] Warning about compiled in DEV mode
 
 FAILING CLAIMS
 
@@ -269,6 +270,10 @@ FAILING CLAIMS
 * [ ACCESSIBILITY ] Light color scheme hard to read as contrast to background is low
 * [ NEW FEATURE REQUEST ] Reordering items to show prioritization of to do does not exist
 * [ NEW FEATURE REQUEST ] Word wrapping is not supported, words are cut in middle of the space allocated into two lines
+* [ NEW FEATURE REQUEST ] Limiting visible length of a todo item
+* [ NEW FEATURE REQUEST ] Duplicate detection
+* [ NEW FEATURE REQUEST ] Application does not scale nicely to smaller screen size, make it responsive
+* [ NEW FEATURE REQUEST ] No undo
 * [ USABILITY ] Items are added at end of list not top of the list, and latest additions could be on top
 * [ USABILITY ] Concepts of "active" and "completed" may not be common terms and better term options could be investigated
 * [ USABILITY ] Application does not allow adding a to do item with a mouse. The text needs to be written on keyboard anyway, but a user may be used to expecting a button. 
