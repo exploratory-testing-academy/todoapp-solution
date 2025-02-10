@@ -93,6 +93,8 @@ Score a point againts each criteria. Expect a candidates claiming extensive expl
 
 * Overfocus on locators while application is unknown and automation is not in play
 * Wanting to input SQL injection string
+* Considering right functionality a bug
+* Inability to recognize a broken function comparing the two different implementations
 
 ## Listing of features
 
