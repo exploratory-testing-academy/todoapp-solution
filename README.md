@@ -277,6 +277,7 @@ FAILING CLAIMS
 * [ NEW FEATURE REQUEST ] Duplicate detection
 * [ NEW FEATURE REQUEST ] Application does not scale nicely to smaller screen size, make it responsive
 * [ NEW FEATURE REQUEST ] No undo
+* [ NEW FEATURE REQUEST ] No confirm on clear and delete
 * [ USABILITY ] Items are added at end of list not top of the list, and latest additions could be on top
 * [ USABILITY ] Concepts of "active" and "completed" may not be common terms and better term options could be investigated
 * [ USABILITY ] Application does not allow adding a to do item with a mouse. The text needs to be written on keyboard anyway, but a user may be used to expecting a button. 
@@ -286,6 +287,7 @@ FAILING CLAIMS
 * [ USABILITY ] Deletion is only available on select and hover, and deleting multiple items at a time is not possible
 * [ ACCESSIBILITY ] Delete unavailable with keyboard only
 * [ DATA ] `ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็` does not copy a single character but an encoded mess
+* [ LAYOUT ] Long text and delete button would look better if they were separated into own columns
 
 ### For React https://todomvc.com/examples/react/dist/
 
