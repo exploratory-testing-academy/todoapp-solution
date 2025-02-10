@@ -278,6 +278,7 @@ FAILING CLAIMS
 * [ NEW FEATURE REQUEST ] No undo
 * [ NEW FEATURE REQUEST ] No confirm on clear and delete
 * [ NEW FEATURE REQUEST ] Long text edit popup that shows whole text
+* [ NEW FEATURE REQUEST ] Pagination
 * [ USABILITY ] Items are added at end of list not top of the list, and latest additions could be on top
 * [ USABILITY ] Concepts of "active" and "completed" may not be common terms and better term options could be investigated
 * [ USABILITY ] Application does not allow adding a to do item with a mouse. The text needs to be written on keyboard anyway, but a user may be used to expecting a button. 
@@ -289,6 +290,7 @@ FAILING CLAIMS
 * [ DATA ] `ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็` does not copy a single character but an encoded mess
 * [ LAYOUT ] Long text and delete button would look better if they were separated into own columns
 * [ DATA ] Some text selection get delete icon on top of text
+* [ CONSISTENCY ] Click icon for items that can be selected is hand on bottom, regular on other selections
 
 ### For React https://todomvc.com/examples/react/dist/
 
